@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    border-bottom: 1px solid grey; 
+
+
+}
+h1 {
+    background-color: #4aaaa5;
+    padding: 26px;
+    text-align: center;
+    color: white;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 0 200px;
+}
+
+nav {
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+ 
+}
+
+a {
+    text-decoration: none;
+    color
+}
+
+section {
+    margin-top: 26px;
+
+}
+
+
+.contentarea {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.profileimage {
+    float: left;
+    width: 200px;
+    margin-right: 16px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
