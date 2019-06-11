@@ -15,7 +15,7 @@ h1 {
     color: white;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0 0 0 175px;
+    margin: 0 0 0 50px;
 }
 
 nav {
@@ -53,7 +53,7 @@ section {
 .profileimage {
     float: left;
     width: 200px;
-    margin: 16px 16px 0 0;
+    margin: 16px 16px 16px ;
 }
 .clearfix::after {
     content: "";
