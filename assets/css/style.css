@@ -72,24 +72,25 @@ p {
 .profileimage {
     float: left;
     width: 200px;
-    margin: 16px 16px 16px ;
+    margin: 16px;
 }
 
 .imgcontainer {
     position: relative;
 }
-.text-block {
-    background-color: #4aaaa5;
-    position: absolute;
-    top: 115px;
-    left: 75px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding: 16px;
 
-   
-    
+.text-block {
+    position: absolute;
+    left: 16px;
+    top: 106px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 200px;
+    padding: 10px 0 10px 0;
+
 }
+
 .clearfix::after {
     content: "";
     clear: both;
