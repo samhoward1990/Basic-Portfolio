@@ -56,11 +56,6 @@ p {
 
 }
 
-.gallery {
-    width: 200px;
-    float: left;
-    margin: 16px;
-}
 
 .contentarea {
     width: 960px;
@@ -75,18 +70,24 @@ p {
     margin: 16px;
 }
 
+.gallery {
+    width: 200px;
+    margin: 16px;
+}
 .imgcontainer {
     position: relative;
+    float: left;
 }
 
 .text-block {
     position: absolute;
-    left: 16px;
-    top: 106px;
+    left: auto;
+    bottom: 16px;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
     width: 200px;
+    margin: 16px;
     padding: 10px 0 10px 0;
 
 }
