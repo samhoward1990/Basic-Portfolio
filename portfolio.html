@@ -8,23 +8,40 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="clearfix">
 
         <h1>Sam Howard</h1>
         
         <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a id="linkborder" href="index.html">About</a>
+            <a id="linkborder" href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <section>
-        <h2>Portfolio</h2>
-        <img src="assets/images/samgig.jpg" alt="Sam on the keys"/>
-        <img src="assets/images/samband.jpg" alt="Sam on the keys with Nyjrd Rah"/>
-        <img src="assets/images/otisandfloyd.jpg" alt="Sam's cats Otis and Floyd">
-        <img src="assets/images/otisandfloydhug.jpg" alt="Sam's Cats Otis and Floyd">
+        <div class="contentarea">
+            <div class="clearfix">
+            
+        
+            <h2>Portfolio</h2>
+            <div class="imgcontainer">
+                
+            <img class="gallery" src="assets/images/samgig.jpg" alt="Sam on the keys"/>
+            <div class="text-block">Playing Keys</div>
+            </div>
+            <div class="imgcontainer">
+            <img class="gallery" src="assets/images/samband.jpg" alt="Sam on the keys with Nyjrd Rah"/>
+            <div class="text-block">Jamming</div>
+        </div>
+        <div class="imgcontainer">
+            <img class="gallery" src="assets/images/otisandfloyd.jpg" alt="Sam's cats Otis and Floyd">
+            <div class="text-block">Otis & Floyd</div>
+        </div>
+            <img class="gallery" src="assets/images/otisandfloydhug.jpg" alt="Sam's Cats Otis and Floyd">
+        
+        </div>
+            </div>
     </section>
 </body>
 </html>
