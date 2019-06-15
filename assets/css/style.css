@@ -4,8 +4,10 @@ body {
     background-image: url("../images/interlaced.png");
 }
 header {
+    width: 100%;
+    margin: 0 auto;
     border-bottom: 2px solid #cccccc; 
-    background-color: white;
+    background-color: #ffffff;
 
 }
 h1 {
@@ -13,7 +15,7 @@ h1 {
     background-color: #4aaaa5;
     padding: 26px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -57,6 +59,38 @@ p {
 
 }
 
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 16px;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    display: block;
+    width: 864px;
+    margin: 16px;
+
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    display: block;
+    width: 864px;
+    margin: 16px;
+}
+
+.submit { 
+    width: 80px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    color: #ffffff
+    
+
+}
+
 
 .contentarea {
     width: 960px;
@@ -85,7 +119,7 @@ p {
     left: auto;
     bottom: 16px;
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
     text-align: center;
     width: 200px;
     margin: 16px;
