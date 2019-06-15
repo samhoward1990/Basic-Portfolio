@@ -1,3 +1,6 @@
+html {
+    height: 100%
+}
 body {
     height: 100%;
     margin: 0;
@@ -5,14 +8,12 @@ body {
     background-image: url("../images/interlaced.png");
 }
 header {
-    width: 100%;
-    margin: 0 auto;
     border-bottom: 2px solid #cccccc; 
     background-color: #ffffff;
 
 }
 h1 {
-    margin: 0 0 0 17%;
+    margin: 0; 
     background-color: #4aaaa5;
     padding: 26px;
     text-align: center;
@@ -128,7 +129,13 @@ textarea {
 
 }
 
+.headercontainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
 .wrapper {
+    padding: 0;
     min-height: 100%;
     margin-bottom: -50px;
 }
