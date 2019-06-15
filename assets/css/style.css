@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
     background-image: url("../images/interlaced.png");
@@ -125,6 +126,21 @@ textarea {
     margin: 16px;
     padding: 10px 0 10px 0;
 
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.push {
+    height: 50px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
 }
 
 .clearfix::after {
