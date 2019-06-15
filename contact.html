@@ -8,27 +8,30 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<header>
+<header class="clearfix">
     <h1>Sam Howard</h1>
 
     <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
+        <a id="linkborder" href="index.html">About</a>
+        <a id="linkborder" href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
     </nav>
 </header>
 <section>
+    <div class="contentarea">
     <h2>Contact</h2>
-    <form>
+    
+    <form class="clearfix">
         <label for="name">Name</label>
-        <input type="text" name="name">
+        <input type="text" name="name" value="John Doe">
         <label for="email">Email</label>
-        <input type="text" name="email">
+        <input type="text" name="email" value="example@gmail.com">
         <label for="message">Message</label>
-        <textarea name="message">
+        <textarea name="message" rows="10" cols="54" wrap="hard">
             </textarea>
-        <input type="submit" value="Submit">
+        <input class="submit" type="submit" value="Submit">
     </form>
+    </div>
 </section>
 </body>
 </html>
